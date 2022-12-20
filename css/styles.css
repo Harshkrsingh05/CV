@@ -1,0 +1,22 @@
+body{
+  background-color: white;
+}
+h1{
+  color: black
+}
+h3{
+  color: black
+}
+hr{
+  border-style: none;
+  border-top-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  width: 100%
+}
+.style{
+  text-align: center;
+}
+.space > * + * {
+  padding-left: 5em;
+}
